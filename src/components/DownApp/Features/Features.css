@@ -1,0 +1,39 @@
+.Features{
+    width: 20rem;
+    height: 25rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: rgba(0, 255, 255, 0.345); */
+}
+
+.feat-circle-img{
+    width: 250px;
+    height: 250px;
+}
+.feat-circle-img img{
+    width: 100%;
+    border: 3px solid red;
+    outline: 3px solid #a3dae0;
+    border-radius: 50%;
+    /* mix-blend-mode:screen; */
+    background-image: none;
+}
+.feat-title{
+    margin-top: 2rem;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+@media only screen and (max-width: 850px){
+    .Features{
+        width: auto;
+        height: max-content;
+    }
+    .feat-circle-img{
+        height: 200px;
+        width: 200px;
+    }
+}

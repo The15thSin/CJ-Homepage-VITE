@@ -1,0 +1,143 @@
+{
+    "AboutUs": {
+        "aboutus": {
+            "name": "CJ-about-us-temp",
+            "url": "../../assets/Images/CJ-about-us-temp.jpg"
+        }
+    },
+    "DownApp": {
+        "features": [
+            {
+                "key" : 1,
+                "name": "features1",
+                "title" : "Explore the club community in your hands",
+                "url": "../../../assets/Images/features/1.png"
+            },
+            {
+                "key" : 2,
+                "name": "features2",
+                "title": "Engage with club members",
+                "url": "../../../assets/Images/features/2.png"
+            },
+            {
+                "key" : 3,
+                "name": "features3",
+                "title": "Showcase your creations on the Wall",
+                "url": "../../../assets/Images/features/3.png"
+            },
+            {
+                "key" : 4,
+                "name": "features4",
+                "title": "Stay updated and get notified for upcoming events",
+                "url": "../../../assets/Images/features/4.png"
+            },
+            {
+                "key": 5,
+                "name": "features5",
+                "title": "Attend the polls and express your views",
+                "url": "../../../assets/Images/features/5.png"
+            },
+            {
+                "key": 6,
+                "name": "features6",
+                "title": "Interact easily with club leaders",
+                "url": "../../../assets/Images/features/6.png"
+            }
+        ],
+        "mockup": {
+            "name": "App-mockup",
+            "url": "../../assets/Images/App-mockup.png"
+        }
+    },
+    "Footer": {
+        "footer-cj": {
+            "name": "club-logo",
+            "url": "../../assets/Logo/club-logo.png"
+        }
+    },
+    "Gallery": {
+        "galleryArray": [
+            {
+                "key": 1,
+                "url": "https://res.cloudinary.com/dneogaofx/image/upload/v1697267946/CjGal/1671112527524_plcckn.jpg",
+                "desc": "photu"
+            },
+            {
+                "key": 2,
+                "url": "https://res.cloudinary.com/dneogaofx/image/upload/v1697267442/CjGal/1671622335258_atdf2c.jpg",
+                "desc": "photu"
+            },
+            {
+                "key": 3,
+                "url": "https://res.cloudinary.com/dneogaofx/image/upload/v1697267437/CjGal/1671112527492_ckogb6.jpg",
+                "desc": "photu"
+            },
+            {
+                "key": 4,
+                "url": "https://res.cloudinary.com/dneogaofx/image/upload/v1697267437/CjGal/1671372336093_l0dha0.jpg",
+                "desc": "photu"
+            },
+            {
+                "key": 5,
+                "url": "https://res.cloudinary.com/dneogaofx/image/upload/v1697267437/CjGal/1671622335880_ark31b.jpg",
+                "desc": "photu"
+            },
+            {
+                "key": 6,
+                "url": "https://res.cloudinary.com/dneogaofx/image/upload/v1697267437/CjGal/1671622335201_t692qm.jpg",
+                "desc": "photu"
+            },
+            {
+                "key": 7,
+                "url": "https://res.cloudinary.com/dneogaofx/image/upload/v1697266683/CjGal/WhatsApp_Image_2023-10-13_at_17.46.18_b841d2bc_zyhoen.jpg",
+                "desc": "photu"
+            }
+        ]
+    },
+    "Login": {
+        "logoo": {
+            "name": "laptop vector",
+            "url": "../../assets/Logo/vector.png"
+        }
+    },
+    "Nav": {
+        "logo": {
+            "name": "club-logo",
+            "url": "../../assets/Logo/club-logo.png"
+        }
+    },
+    "ProjDom": {
+        "domainArray": [
+            {
+                "key": 1,
+                "title": "Web Dev",
+                "imgUrl": "../../assets/Logo/Domain-logo/webdev.png",
+                "desc": "Web development is the process of creating and maintaining websites and web applications. It involves using coding languages and other tools to build user-friendly interfaces, manage databases, and connect websites to the internet."
+            },
+            {
+                "key": 2,
+                "title": "Android",
+                "imgUrl": "../../assets/Logo/Domain-logo/android.png",
+                "desc": "Android development is the process of creating and maintaining applications for devices that run on the Android operating system. It involves using Java or Kotlin programming languages and the Android SDK to build user interfaces, handle user input, and interact with device hardware and software."
+            },
+            {
+                "key": 3,
+                "title": "C++",
+                "imgUrl": "../../assets/Logo/Domain-logo/cpp.png",
+                "desc": "C++ is a powerful and versatile programming language that is used to build a wide range of applications, from operating systems to video games to scientific simulations. It is known for its speed, efficiency, and flexibility."
+            },
+            {
+                "key": 4,
+                "title": "AI/ML",
+                "imgUrl": "../../assets/Logo/Domain-logo/ai.png",
+                "desc": "AI/ML is a rapidly evolving field with the potential to revolutionize many aspects of our lives. AI/ML is already having a major impact on the world around us. As the technology continues to develop, we can expect to see even more innovative and transformative applications in the years to come."
+            }
+        ]
+    },
+    "UnderBuild" : {
+        "construction" : {
+            "name" : "Under-construction",
+            "url" : "../../assets/Images/uc.png"
+        }
+    }
+}

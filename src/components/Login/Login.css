@@ -1,0 +1,186 @@
+.login-container{
+    height: 115vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+}
+.login-bg{
+    height: 90vh;
+    width: 70vw;
+    background-color: #101528b9;
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.login{
+    background-color: #031b2ee4;
+    position: relative;
+    top: 15%;
+    left: 5%;
+    height: 60vh;
+    width: 44.8vw;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 100px;
+    flex-direction:column;
+    /* border: 2px solid #3987c6; */
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 8px 6px 50px rgba(0, 0, 0, 0.648);
+}
+.login form{
+    position: relative;
+}
+.form-group{
+    display: grid;
+    text-decoration: none;
+    background-color: transparent;
+}
+.form-group input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #3987c6;
+    border-radius: 3px;
+    color: aliceblue;
+    width: 250px;
+}
+.log-txt{
+    font-size:4rem ;
+    padding-bottom: 100px;
+}
+.logButt{
+    background-color:#3987c6;
+    color: white;
+    margin: 20px;
+    height: 35px;
+    width: 90px;
+    border-radius: 25px;
+    border-style: none;
+}
+.logButt:hover{
+    scale: 1.2em;
+    background: white;
+    color: #3987c6;
+    transition: all ease 0.5s;
+}
+
+.login-card{
+    position: relative;
+    top:-72.5%;
+    left:50%;
+    background-color: #10151e;
+    height: 100vh;
+    width: 40vw;
+    border-radius: 10px;
+    box-shadow: 5px 5px 100px rgba(0, 0, 0, 0.588);
+} 
+.logoo img{
+    width: 400px;
+    height: auto;
+    position: absolute;
+    top: 36%;
+    -webkit-user-drag: none;
+}
+
+
+.txt-1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(140, 140, 140);
+    font-size: 4rem;
+    position: absolute;
+    left: 10%;
+    top: 8%;
+    width: max-content;
+}
+
+.txt-2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+    font-size: 2.5rem;
+    width: max-content;
+    position: absolute;
+        left: 10%;
+        top: 18%;
+}
+
+.txt-3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.2rem;
+    list-style: none;
+    position: absolute;
+    left: 65%;
+    top: 45%;
+    color: grey;
+}
+
+.cross{
+    position: absolute;
+    left: 96%;
+    background-color: rgba(184, 5, 5, 0.973);
+    display: none;
+    border-radius: 15px;
+    width: 25px;
+    height: 25px;
+}
+
+@media (max-width: 850px) {
+    .login-bg {
+        width: 90vw;
+        height: 75vh;
+    }
+
+    .login {
+        padding: 0;
+        top: 10%;
+        left: 2.4%;
+        width: 85vw;
+        align-items: center;
+    }
+
+    .txt-1 {
+        font-size: 3rem;
+    }
+
+    .txt-2 {
+        font-size: 1.5rem;
+    }
+
+    .txt-3 {
+        font-size: 1.8rem;
+        left: 50%;
+        top:30%;
+        transform: translateX(-50%);
+    }
+
+    .logoo img{
+        top: 50%;
+        right: 10%;
+        width: 90vw;
+    }
+
+    .form-group input{
+        width: 35vw;
+    }
+
+    .login-card{
+        position: absolute;
+        top: 5%;
+        height: 70vh;
+        left: 5%;
+        width: 80vw;
+    }
+
+    .login form{
+        position: absolute;
+        top:61%;
+    }
+    .log-txt{
+        padding-bottom: 200px;
+    }
+
+    .cross{
+        display: block;
+    }
+}

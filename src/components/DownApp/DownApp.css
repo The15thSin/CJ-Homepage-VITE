@@ -1,0 +1,130 @@
+.DownApp{
+    height: auto;
+    padding: 2rem;
+}
+
+.da-title{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.da-title h1{
+    /* background: cyan; */
+    width: fit-content;
+    padding: 1rem 4rem;
+    border-bottom: 2px solid #a3dae0;
+    margin-bottom: 2rem;
+}
+
+.da-banner{
+    padding: 3rem;
+    margin: 2rem;
+    border-radius: 10px;
+    border: 2px solid #a3dae08b;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(5px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.phone-da-title{
+    display: none;
+}
+
+.da-banner h3{
+    font-size: 2rem;
+}
+
+.da-banner img{
+    width: 30vw;
+}
+
+.da-banner p{
+    font-size: 1.2rem;
+}
+
+.da-features{
+    padding: 3rem;
+    margin: 2rem;
+    margin-top: 5rem;
+    border-radius: 10px;
+    border: 2px solid #a3dae08b;
+    background-color: rgba(0,0,0,0.6);
+    backdrop-filter: blur(5px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.da-features h3{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.da-features-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2.5rem;
+}
+
+.da-download{
+    display: flex;
+    justify-content: center;
+}
+
+.da-download button{
+    padding: 1rem 5rem;
+    background-color: red;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.4rem;
+    border-radius: 3rem;
+}
+
+@media only screen and (max-width: 850px){
+    .DownApp{
+        padding: 2rem 0.4rem;
+    }
+    .da-title h1{
+        padding: 0.5rem 2rem;
+        font-size: 2.2rem;
+    }
+    .da-banner{
+        margin: 0.5rem;
+        padding: 3rem 1rem;
+    }
+    .da-banner h3{
+        display: none;
+    }
+    .phone-da-title{
+        display: contents;
+    }
+    .phone-da-title h3{
+        font-size: 1.7rem;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+    }
+    .da-banner img{
+        width: 70vw;
+    }
+    .da-banner p{
+        font-size: 1rem;
+        text-align: center;
+        line-height: 1.5rem;
+    }
+    .da-features{
+        margin: 0.5rem;
+        margin-top: 4rem;
+        padding: 3rem 1rem;
+    }
+    .da-download{
+        margin: 3rem auto;
+    }
+}

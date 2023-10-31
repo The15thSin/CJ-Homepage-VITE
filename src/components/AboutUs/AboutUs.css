@@ -1,0 +1,118 @@
+.AboutUs{
+    /* background-color: blue; */
+    height: auto;
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 2rem;
+    margin: 2rem;
+    align-items: center;
+    justify-content: space-around;
+    padding: 4rem;
+}
+
+.aboutus-head{
+    font-weight: bolder;
+    font-size: 8rem;
+    writing-mode: vertical-lr;
+    border-left: 2px solid  #a3dae0;
+}
+
+.aboutus-text-container{
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.aboutus-more-container{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.aboutus-more-container button{
+    background-color: #00000000;
+    border: none;
+    box-shadow: inset 0px 0px 0px 2px #ce1a1e;
+    color: white;
+    font-size: 1.1rem;
+    transition: 0.1s ease;
+    cursor: pointer;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    align-items: center;
+    align-self:flex-end;
+    border-radius: 0.5rem;
+}
+
+.aboutus-text{
+    width: auto;
+    font-size: 1.3rem;
+    text-align: justify;
+    /* background-color: #ce1a1e;  */
+} 
+
+.aboutus-photo{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+}
+
+.aboutus-photo img{
+    height: 100%;
+}
+
+.aboutus-text-container-phone{
+    display: none;
+}
+
+@media only screen and (max-width: 800px){
+    .AboutUs{
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        /* background-color: rgba(255, 228, 196, 0.293); */
+        padding: 2rem 0;
+        margin: 1rem;
+        gap: 3rem;
+    }
+    .aboutus-head{
+        width: 80vw;
+        font-size: 3rem;
+        writing-mode: horizontal-tb;
+        rotate: 0deg;
+        border-bottom: 2px solid #a3dae0;
+        border-left: none;
+        padding: 0.5rem 0;
+        /* background-color: #b61a1a; */
+        margin: auto 1rem;
+    }
+    .aboutus-text{
+        width: fit-content;
+        font-size: 1rem;
+        padding: 2rem;
+        /* background-color: red; */
+    }
+    .aboutus-photo{
+        margin-top: 0;
+        width: fit-content;
+        height: 28vh;
+        /* background-color: aqua; */
+    }
+    .aboutus-photo img{
+        width: 100%;
+        height: 100%;
+    }
+    .aboutus-text-container{
+        display: none;
+    }
+    .aboutus-text-container-phone{
+        display: flex;
+        justify-content: center;
+        /* background-color: #a3dae0; */
+    }
+    .phone{
+        padding-top: 0;
+    }
+    .aboutus-more-container button{
+        font-size: 0.8rem;
+    }
+}
